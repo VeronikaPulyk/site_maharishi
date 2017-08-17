@@ -1,0 +1,191 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #709dba;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #1a2853;
+}
+.wrapper {
+	background-color: #fff;
+	width: 960px;
+	margin: 0 auto;
+	padding-bottom: 8px;
+}
+.wrapper::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.main {
+	padding: 10px;
+}
+header {
+	background-image: url(images/masthead.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	width: 100%; /*почему не срабатывает?*/
+	min-height: 126px;
+}
+.logo, .main_head {
+	float: left;
+	padding: 20px 10px;
+}
+.form {
+	float: right;
+	width: 300px;
+	height: auto;
+	background-color: #fff;
+	box-shadow: 0px 4px 20px 5px #C1BBBB;
+	position: relative;
+	top: 15px;
+	right: 30px;
+	overflow: hidden;
+}
+.form img {
+	width: 300px;
+	height: 174px;
+}
+.learn_more {
+	background-color: #CD1920;
+	color: #fff;
+	text-align: center;
+}
+.field {
+	width: 250px;
+	height: 30px;
+	margin-bottom: 9px;
+	padding-left: 8px;
+	color: #ccc;
+	border: 1px solid #ccc;
+}
+.input {
+	width: 250px;
+	height: 30px;
+	margin-bottom: 9px;
+	padding-left: 8px;
+	border: 1px solid #ccc;
+	color: #1a2853;
+}
+.brochure span {
+	font-size: 13px;
+	color: #d11745;
+	margin-left: 4px;
+}
+/*.input span {
+	font-size: 13px;
+	color: #d11745;
+	margin-left: 4px;
+}*/
+
+/*.field::after {
+	content: "\f069";
+	font-size: 10px;
+	display: block;
+	color: #cd1920;  не срабатывает
+}
+.input::after {
+	content: "*";
+	font-size: 10px;
+	display: block;
+	color: #cd1920;  не срабатывает
+}*/
+.brochure {
+	/*margin: 12px auto;*/
+	width: 300px;
+	float: left;
+	padding-left: 15px;
+	border: 5px solid #DFE6EC;
+	border-top: none;
+}
+.brochure p {
+	color: #cd1920;
+	text-align: left;
+	font-size: 12px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+button {
+	width: 250px;
+	height: 50px;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #1279d0;
+	color: #fff;
+	border-radius: 5px;
+	margin-bottom: 25px;
+}
+.main_head h3 {
+	color: #7e8285;
+	letter-spacing: 5px;
+	font: normal 12px sans-serif;
+}
+.logo_accredited {
+	float: right;
+	padding: 20px;
+}
+.highlight {
+	background-color: #DFE6EC;
+	padding: 10px 30px;
+	/*margin: 0 10px 24px;*/
+}
+.highlight h3 {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.highlight ul li {
+	font-size: 13px;
+	line-height: 24px;
+	margin-left: 20px;
+}
+.text {
+	width: 50%;
+}
+.require {
+	font-size: 13px;
+	line-height: 24px;
+	margin: 20px 20px 10px 50px;
+}
+.company-logos img {
+	width: 100%;
+	padding: 20px;
+}
+.company-logos p {
+	display: inline-block;
+	font-size: 13px;
+	padding-left: 20px;
+}
+.bottom {
+	min-height: 150px;
+	/*margin: 10px;*/
+}
+.bottom div {
+	background-color: #DFE6EC;
+	padding: 30px;
+}
+.one, .two {
+	width: 50%;
+	float: left;
+	font-size: 12px;
+	line-height: 24px;
+}
+.copyright {
+	text-align: center;
+	font-size: 11px;
+	margin-top: 10px;
+}
+.copyright a, .sitemap a {
+	color: #DEE5EB;
+	text-decoration: none;
+}
+.sitemap {
+	text-align: center;
+	font-size: 10px;
+	margin-top: 10px;
+}
+footer {
+	margin-bottom: 10px;
+}
